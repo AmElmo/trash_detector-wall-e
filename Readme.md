@@ -12,7 +12,10 @@ Wall-E detects trash on a live video feed and automatically classifies it among
 ## 1. Data collection
 
 Datasets used :
-https://github.com/pedropro/TACO
+- TACO: https://github.com/pedropro/TACO
+- Trashbox: https://github.com/nikhilvenkatkumsetty/TrashBox
+
+A complete list of relevant datasets: https://github.com/AgaMiko/waste-datasets-review
 
 ## 2. Data cleaning & preprocessing
 
