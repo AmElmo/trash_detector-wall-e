@@ -5,7 +5,10 @@ Wall-E detects trash on a live video feed and automatically classifies it among
 
 # Stack overview
 
-???
+Languages: Python & JavaScript
+Roboflow for image annotations
+Tensorflow API for modeling
+Tensorflow JS for deployment to production
 
 # Project steps
 
@@ -26,6 +29,11 @@ The 2 datasets used did not have the same split of categories. We combined them 
 4. Metal
 5. Organic
 
+Step 1: change annotations of TACO dataset to reduce from 60 categories to 5 categories
+
+Step 2: match the 4 categories of the Drinking_Waste_Classification dataset to match our 5 categories
+
+Step 3: combine all annotations into one file (PASCAL, JSON, ???)
 
 ## 3. Model selection & training
 
