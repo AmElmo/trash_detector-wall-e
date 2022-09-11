@@ -1,2 +1,12 @@
+# Core packages
 numpy
 pandas
+
+# Required for downloading TACO dataset
+pillow
+requests
+jupyter
+matplotlib
+seaborn
+graphviz
+Cython
