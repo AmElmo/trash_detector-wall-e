@@ -1,6 +1,7 @@
 # Core packages
 numpy
 pandas
+openpyxl
 
 # Required for downloading TACO dataset
 pillow

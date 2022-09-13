@@ -22,16 +22,18 @@ A complete list of potential datasets considered: https://github.com/AgaMiko/was
 
 ## 2. Data cleaning & preprocessing
 
-The 2 datasets used did not have the same split of categories. We combined them to form 5 unique categories commonly used for recycling purposes:
+The 2 datasets used did not have the same split of categories. We combined them to form 7 unique categories commonly used for recycling purposes:
 1. Paper
 2. Plastic
 3. Glass
 4. Metal
 5. Organic
+6. E-Waste
+7. Non-recyclalble
 
-Step 1: change annotations of TACO dataset to reduce from 60 categories to 5 categories
+Step 1: change annotations of TACO dataset to reduce from 60 categories to 7 categories
 
-Step 2: match the 4 categories of the Drinking_Waste_Classification dataset to match our 5 categories
+Step 2: match the 4 categories of the Drinking_Waste_Classification dataset to match our 7 categories
 
 Step 3: combine all annotations into one file (PASCAL, JSON, ???)
 
