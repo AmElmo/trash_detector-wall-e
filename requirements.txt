@@ -11,3 +11,10 @@ matplotlib
 seaborn
 graphviz
 Cython
+
+# More
+fiftyone # for annotation formats convertion
+
+# Modelling
+tensorflow-macos
+tensorflow-metal
