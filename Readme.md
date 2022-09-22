@@ -1,7 +1,7 @@
 # 💡 Description
 
 Wall-E detects trash on a live video feed and automatically classifies it among
-5 main categories (paper, plastic, metal, paper, organic),
+7 main categories (paper, plastic, metal, glass, organic, e-waste and non-recyclable),
 
 # 🤖 Stack overview
 
