@@ -17,7 +17,7 @@ Tensorflow JS for deployment to production
 Datasets used :
 - TACO: https://github.com/pedropro/TACO
 - Drinking Waste Dataset: https://www.kaggle.com/datasets/arkadiyhacks/drinking-waste-classification
-- FoodSeg103: https://xiongweiwu.github.io/foodseg103.html
+- Fruit Detection: https://www.kaggle.com/datasets/andrewmvd/fruit-detection
 - Mobile Images Dataset: https://www.kaggle.com/datasets/amirhamzahaq/mobile-images-dataset
 - Garbage Classification: https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification (added custom annotations for cardboard & paper categories)
 
