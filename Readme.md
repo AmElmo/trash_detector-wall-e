@@ -21,6 +21,7 @@ Datasets used :
 - Fruit Images for Object Detection: https://www.kaggle.com/datasets/mbkinaci/fruit-images-for-object-detection
 - Mobile Images Dataset: https://www.kaggle.com/datasets/amirhamzahaq/mobile-images-dataset
 - Garbage Classification: https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification (added custom annotations for cardboard & paper categories)
+- Open Images Dataset V.6: https://storage.googleapis.com/openimages/web/index.html (used for E-Waste)
 
 A complete list of potential datasets considered: https://github.com/AgaMiko/waste-datasets-review
 

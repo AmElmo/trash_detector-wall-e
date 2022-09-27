@@ -16,6 +16,7 @@ Cython
 fiftyone # for annotation formats convertion
 beautifulsoup4
 lxml
+boto3
 
 # Modelling
 tensorflow-macos
