@@ -19,5 +19,6 @@ lxml
 boto3
 
 # Modelling
+scikit-multilearn
 tensorflow-macos
 tensorflow-metal
