@@ -14,6 +14,7 @@ Cython
 
 # More
 fiftyone # for annotation formats convertion
+funcy
 beautifulsoup4
 lxml
 boto3
