@@ -6,8 +6,11 @@ Wall-E detects trash on a live video feed and automatically classifies it among
 # 🤖 Stack overview
 
 Languages: Python & JavaScript
-Roboflow for image annotations
+
+Roboflow and `fiftyone` library for image annotations and format conversion
+
 Tensorflow API for modeling
+
 Tensorflow JS for deployment to production
 
 # 🪜 Project steps
