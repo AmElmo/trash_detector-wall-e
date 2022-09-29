@@ -40,7 +40,10 @@ Step 1: change annotations of TACO dataset to reduce from 60 categories to 7 cat
 
 Step 2: match the 4 categories of the Drinking_Waste_Classification dataset to match our 7 categories
 
-Step 3: combine all annotations into one file (PASCAL, JSON, ???)
+Step 3: combine all annotations into one COCO format annotation
+
+Total number of images: 9478
+Total number of annotations: 13854
 
 ## 3. ✨ Model selection & training
 
