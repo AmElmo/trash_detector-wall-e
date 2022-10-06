@@ -11,7 +11,7 @@ Roboflow and `fiftyone` library for image annotations and format conversion
 
 Tensorflow API for modeling
 
-Tensorflow JS for deployment to production
+Tensorflow JS & React for deployment to production
 
 # 🪜 Project steps
 
