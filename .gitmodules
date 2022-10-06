@@ -1,0 +1,3 @@
+[submodule "final_website/ReactComputerVisionTemplate"]
+	path = final_website/ReactComputerVisionTemplate
+	url = https://github.com/nicknochnack/ReactComputerVisionTemplate

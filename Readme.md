@@ -28,7 +28,7 @@ Datasets used :
 
 A complete list of potential datasets considered: https://github.com/AgaMiko/waste-datasets-review
 
-## 2. 🧹 Data cleaning & preprocessing
+## 2. 🧹 Data cleaning, merging & preprocessing
 
 The 2 datasets used did not have the same split of categories. We combined them to form 7 unique categories commonly used for recycling purposes:
 1. Paper
@@ -55,3 +55,13 @@ Total number of annotations: 13854
 ## 5. 🚲 Lifecycle setup of model
 
 ## 6. 🌟 Deployment to JavaScript app
+
+There are a few key steps:
+
+1. Convert the trained model to Tensorflow JS (script in the modelling notebook)
+2. Host the model on Google Cloud Storage
+3. Ensure CORS is setup so we can access the model from the Javascript app
+4. Use React.JS to build the front-end application (we used an existing boilerplate for that)
+5. Load the graph model from URL
+6. Update the Javascript code as to match the labelmap of the model
+7. Make detection with the webcam! ✨
