@@ -60,7 +60,7 @@ There are a few key steps:
 
 1. Convert the trained model to Tensorflow JS (script in the modelling notebook)
 2. Host the model on Google Cloud Storage
-3. Ensure CORS is setup so we can access the model from the Javascript app
+3. Ensure CORS configuration is setup so we can access the model in the bucket from our Javascript app
 4. Use React.JS to build the front-end application (we used an existing boilerplate for that)
 5. Load the graph model from URL
 6. Update the Javascript code as to match the labelmap of the model
