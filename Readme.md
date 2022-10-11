@@ -65,3 +65,4 @@ There are a few key steps:
 5. Load the graph model from URL
 6. Update the Javascript code as to match the labelmap of the model
 7. Make detection with the webcam! ✨
+8. Push to production (Docker + Google Cloud Run???)
