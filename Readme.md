@@ -15,11 +15,16 @@ It is forecasted to grow **+70% by 2050**.
   <img src="trash3.png" width="180" />
 </p>
 
+<br/>
 
 # 💡 Solution
 
 Wall-E detects trash on a live video feed and automatically classifies it among
 7 main recycling categories (paper, plastic, metal, glass, organic, e-waste and non-recyclable).
+
+<img src="wall-e.webp" width="400">
+
+<br/>
 
 # 🤖 Stack overview
 
@@ -32,6 +37,8 @@ Tensorflow API for modeling
 Tensorflow JS & React for deployment to production
 
 Link to the react app repo: https://github.com/AmElmo/trash_detector_wall-e_production
+
+<br/>
 
 # 🪜 Project steps
 
@@ -47,6 +54,8 @@ Datasets used :
 - Open Images Dataset V.6: https://storage.googleapis.com/openimages/web/index.html (used for E-Waste)
 
 A complete list of potential datasets considered: https://github.com/AgaMiko/waste-datasets-review
+
+<br/>
 
 ## 2. 🧹 Data cleaning, merging & preprocessing
 
@@ -68,11 +77,19 @@ Step 3: combine all annotations into one COCO format annotation
 Total number of images: 9478
 Total number of annotations: 13854
 
+<br/>
+
 ## 3. ✨ Model selection & training
+
+<br/>
 
 ## 4. 📸 Test predictions on photos
 
+<br/>
+
 ## 5. 🚲 Lifecycle setup of model
+
+<br/>
 
 ## 6. 🌟 Deployment to JavaScript app
 
@@ -86,3 +103,5 @@ There are a few key steps:
 6. Update the Javascript code as to match the labelmap of the model
 7. Make detection with the webcam! ✨
 8. Push to production (Docker + Google Cloud Run???)
+
+<br/>
