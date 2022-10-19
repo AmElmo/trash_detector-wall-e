@@ -35,13 +35,20 @@ Languages: Python & JavaScript (React)
 
 [Roboflow](https://roboflow.com/) and `fiftyone` library for image annotations and format conversion
 
-Tensorflow API for modeling
+Tensorflow Object Detection API for modeling
 
 Tensorflow JS & React for deployment to production
 
-Link to the react app repo: https://github.com/AmElmo/trash_detector_wall-e_production
+Link to the React app repo: https://github.com/AmElmo/trash_detector_wall-e_production
 
 <br/>
+
+# ✨ Performance metrics
+
+-> Table with Precision + Recall for each training
+
+-> Link to WandB dashboards
+
 
 # 🪜 Project steps
 
