@@ -33,11 +33,11 @@ Wall-E detects trash on a live video feed and automatically classifies it among
 
 Languages: Python & JavaScript (React)
 
-[Roboflow](https://roboflow.com/) and `fiftyone` library for image annotations and format conversion
+[Roboflow](https://roboflow.com/) and `fiftyone` library for image annotations and format conversion.
 
-Tensorflow Object Detection API for modeling
+Tensorflow Object Detection API for modeling.
 
-Tensorflow JS & React for deployment to production
+Tensorflow JS & React for deployment to production.
 
 Link to the React app repo: https://github.com/AmElmo/trash_detector_wall-e_production
 
@@ -48,6 +48,14 @@ Link to the React app repo: https://github.com/AmElmo/trash_detector_wall-e_prod
 -> Table with Precision + Recall for each training
 
 -> Link to WandB dashboards
+
+| Model        | Batch Size |  Average Speed (ms)  | mAP (Mean Average Precision) | AR (Average Recall) | Link to metrics |
+| ------------- |:-------------:| -----:| -----:|-----:|-----:|
+| SSD MobileNet V2 FPNLite 320x320      | 22 | 52.99% | 52.99% | 48.42% | https://wandb.ai/amelmo/Trash-Detector-Wall-E/runs/2qv9wgqn/tensorboard?workspace=user-amelmo |
+| EfficientDet D0 512x512     | 39      |   ??? | ??? | ??? | ??? |
+| ??? | ???      |    ??? | ??? | ??? | ??? | ??? |
+
+See Weights & Biases dashboards: https://wandb.ai/amelmo/Trash-Detector-Wall-E
 
 
 # 🪜 Project steps
@@ -91,17 +99,34 @@ Total number of annotations: 13854
 
 ## 3. ✨ Model selection & training
 
+We use Transfer Learning through the Tensorflow Object Detection API. We've selected the following models:
+- SSD MobileNet V2 FPNLite 320x320
+- EfficientDet D0 512x512
+
+
+The main reasons for choosing those models:
+  1. Their speed (< 40ms for inference) as we need to run predictions on a video feed (hence make ~30 predictions / second). Speed is critical.
+  2. Their performance level in relation to their speed ()
+
 <br/>
 
 ## 4. 📸 Test predictions on photos
 
+We test our models on a bunch of pictures first before testing on a video feed. See model_and_training notebook, step 12.
+
 <br/>
 
-## 5. 🚲 Lifecycle setup of model
+## 5. 🚲 Lifecycle setup
+
+We use Weights & Biases to keep track of our training metrics. We dump the Tensorflow files after training using the WandB API.
+
+You can see all the public metrics here 👉 https://wandb.ai/amelmo/Trash-Detector-Wall-E
 
 <br/>
 
 ## 6. 🌟 Deployment to JavaScript app
+
+We then deploy our model in a React App using Tensorflow JS.
 
 There are a few key steps:
 
