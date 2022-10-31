@@ -51,8 +51,8 @@ Link to the React app repo: https://github.com/AmElmo/trash_detector_wall-e_prod
 
 | Model        | Batch Size |  Average Speed (ms)  | mAP (Mean Average Precision) | AR (Average Recall) | Link to metrics |
 | ------------- |:-------------:| -----:| -----:|-----:|-----:|
-| SSD MobileNet V2 FPNLite 320x320      | 22 | 52.99% | 52.99% | 48.42% | https://wandb.ai/amelmo/Trash-Detector-Wall-E/runs/2qv9wgqn/tensorboard?workspace=user-amelmo |
-| EfficientDet D0 512x512     | 39      |   ??? | ??? | ??? | ??? |
+| SSD MobileNet V2 FPNLite 320x320      | 32 | 22 | 52.99% | 48.42% | https://wandb.ai/amelmo/Trash-Detector-Wall-E/runs/2qv9wgqn/tensorboard?workspace=user-amelmo |
+| EfficientDet D0 512x512     | 32   |   ??? | ??? | ??? | ??? |
 | ??? | ???      |    ??? | ??? | ??? | ??? | ??? |
 
 See Weights & Biases dashboards: https://wandb.ai/amelmo/Trash-Detector-Wall-E
