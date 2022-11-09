@@ -51,11 +51,15 @@ Link to the React app repo: https://github.com/AmElmo/trash_detector_wall-e_prod
 
 | Model        | Batch Size |  Average Speed (ms)  | mAP (Mean Average Precision) | AR (Average Recall) | Link to metrics |
 | ------------- |:-------------:| -----:| -----:|-----:|-----:|
-| SSD MobileNet V2 FPNLite 320x320      | 32 | 22 | 52.99% | 48.42% | https://wandb.ai/amelmo/Trash-Detector-Wall-E/runs/2qv9wgqn/tensorboard?workspace=user-amelmo |
-| EfficientDet D0 512x512     | 32   |   ??? | ??? | ??? | ??? |
-| ??? | ???      |    ??? | ??? | ??? | ??? | ??? |
+| SSD MobileNet V2 FPNLite 320x320      | 32 | 22 | 52.99% | 48.42% | https://wandb.ai/amelmo/Trash-Detector-Wall-E/runs/2qv9wgqn/tensorboard |
+| EfficientDet D0 512x512     | 32   |   39 | 54.75% | 48.56% | https://wandb.ai/amelmo/Trash-Detector-Wall-E/runs/2l5hg8gf/tensorboard |
+| SSD Resnet50 V1 fpn 640x640 | 32      |  46 | 52.77% | 48.37% | https://wandb.ai/amelmo/Trash-Detector-Wall-E/runs/39dci9bw/tensorboard |
 
 See Weights & Biases dashboards: https://wandb.ai/amelmo/Trash-Detector-Wall-E
+
+**Conclusion** 👉 The EfficientDet D0 model seems to provide the best performance (both mAP and AR) but only slightly better than the faster model SSD Mobilenet V2 FPNLite. Considering the latter is nearly twice as fast and provides almost the same performance, we will use this one in production.
+
+<br/>
 
 
 # 🪜 Project steps
