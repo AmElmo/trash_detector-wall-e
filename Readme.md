@@ -20,7 +20,14 @@ It is forecasted to grow **+70% by 2050**.
 # 💡 Solution
 
 Wall-E detects trash on a live video feed and automatically classifies it among
-7 main recycling categories (paper, plastic, metal, glass, organic, e-waste and non-recyclable).
+7 main recycling categories:
+- paper
+- plastic
+- metal
+- glass
+- organic
+- e-waste
+- non-recyclable
 
 <p float="left">
   <img src="wall-e.webp" width="400" />
