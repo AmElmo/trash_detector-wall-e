@@ -153,4 +153,6 @@ There are a few key steps:
 7. Make detection with the webcam! ✨
 8. Push to production (Docker + Google Cloud Run???)
 
+🔗 Dedicated repository for production: https://github.com/AmElmo/trash_detector_wall-e_production
+
 <br/>
