@@ -29,6 +29,9 @@ Wall-E detects trash on a live video feed and automatically classifies it among
 - e-waste
 - non-recyclable
 
+<br/>
+
+
 <p float="left">
   <img src="wall-e.webp" width="400" />
   <img src="trash4.png" width="310" />
