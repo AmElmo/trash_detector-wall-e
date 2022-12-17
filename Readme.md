@@ -1,4 +1,10 @@
 
+**🔗 Links:**
+✨ Live demo: https://wall-e-trash-detector-srhouqr7ea-od.a.run.app/
+📁 Dedicated repository for production: https://github.com/AmElmo/trash_detector_wall-e_production
+📊 Metrics dashboards: https://wandb.ai/amelmo/Trash-Detector-Wall-E
+
+
 # 🤔 Problem
 
 **2.01 billion tonnes** of municipal solid waste is generated annually in the world.
