@@ -1,2 +1,2 @@
 packages/* linguist-documentation=false
-packages/* linguist-vendored
+packages/* linguist-vendored=false
