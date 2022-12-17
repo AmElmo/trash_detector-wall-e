@@ -1,6 +1,6 @@
 
 ## Main links
-<br/>
+
 ✨ Live demo: https://wall-e-trash-detector-srhouqr7ea-od.a.run.app/
 <br/>
 📁 Dedicated repository for production: https://github.com/AmElmo/trash_detector_wall-e_production
