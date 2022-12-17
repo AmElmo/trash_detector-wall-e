@@ -1,5 +1,5 @@
 
-**🔗 Main links:**
+## Main links
 <br/>
 ✨ Live demo: https://wall-e-trash-detector-srhouqr7ea-od.a.run.app/
 <br/>
@@ -7,6 +7,8 @@
 <br/>
 📊 Metrics dashboards: https://wandb.ai/amelmo/Trash-Detector-Wall-E
 
+<br/>
+<br/>
 
 # 🤔 Problem
 
