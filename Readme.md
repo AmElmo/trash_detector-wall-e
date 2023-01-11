@@ -5,7 +5,7 @@
 <br/>
 📁 Dedicated repository for production: https://github.com/AmElmo/trash_detector_wall-e_production
 <br/>
-📊 Metrics dashboards: https://wandb.ai/amelmo/Trash-Detector-Wall-E
+📊 Metrics dashboards (see Tensorboard): https://wandb.ai/amelmo/Trash-Detector-Wall-E
 
 <br/>
 <br/>
